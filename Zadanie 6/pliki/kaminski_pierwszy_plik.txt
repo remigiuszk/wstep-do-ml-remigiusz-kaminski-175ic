@@ -1,0 +1,3 @@
+Znaki specjalne 1$#@312.
+Nowa linia.
+To jest pierwszy plik przeznaczony do odczytu.

@@ -1,0 +1,4 @@
+To jest plik przeznaczony do operacji bitowych.
+Sometimes, you may need to work with files using byte strings.
+This is done by adding the 'b' character to the mode argument.
+All of the same methods for the file object apply. However, each of the methods expect and return a bytes object instead:
