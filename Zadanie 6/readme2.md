@@ -24,7 +24,7 @@ a) metoda .read() pozwala na odczytanie treści całego pliku, gdy nie podamy pa
 b)metoda .readline() również przyjmuje parametr size i taka ilość znaków z danej linii zostanie odczytana
 c) metoda .readlines() zwraca treść pliku jako listę wyrazów
 
-#7. Iterowanie wyrazów
+# 7. Iterowanie wyrazów
 Rozróżniamy trzy sposoby:
 a) za pomocą metody .readline() iterujemy po wszystkich liniach dokumentu
 b) za pomocą .readlines iterujemy w podobny sposób
@@ -35,3 +35,15 @@ Dwie metody:
 write(string) - zapisuje string w parametrze do pliku
 writelines(seq) - zapisuje wpisane sekwencje do pliku, trzeba ręcznie dodać zakończeinia linii
 
+# 9. Operacje bitowe
+Otwierając obraz png za pomocą flagi rb, możemy uzyskać z niego następujące informacje:
+0x89 - numer sygnalizujacy ze jest to png
+0x50 0x4E 0x47 - png w kodowaniu ASCII
+0x0D 0x0A - zakończenie linii w stylu DOSowym
+0x1A - EOF  w stylu DOS
+0x0A - unixowe zakończenie linii 
+# 10. Dołączanie do pliku
+# 11. Praca z dwoma plikami jednocześnie
+W tym podpunckie staramy się przepisać jeden z plików do drugiego w tym samym czasie, zmieniając kolejność linii
+# 12. Utworzenie pngReadera
+Mamy możliwość definiowania własnego parsera, co wykonujemy w tym przykładzie na podstawie tutorialu
