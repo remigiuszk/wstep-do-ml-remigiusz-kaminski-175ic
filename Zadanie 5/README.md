@@ -76,6 +76,22 @@ Gus NNP PROPN noun, proper singular<br>
          nouns.append(token) <br>
         nouns <br>
 
+## Wizualizacja - używanie displaCy
+Narzędzie pozwalające na wizualizacje połączeń pomiędzy częściami mowy. <br>
+<br>
+     about_interest_text = ('He is interested in learning' <br>
+     ' Natural Language Processing.') <br>
+     about_interest_doc = nlp(about_interest_text) <br>
+     displacy.serve(about_interest_doc, style='dep') <br>
+
+## Funckcje preprocessing - przed wykonaniem przetwarzania
+Są to funkcje wykonywane na chwile przed przetwarzaniem danego tekstu, umożliwają takie opcje jak: <br>
+- zamiana wielkości liter
+- lemmatyzacja każdego tokenu
+- usuwanie znaków interpunkcyjnych
+- usuwanie słów stopu
+
+
 
 
 
