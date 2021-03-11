@@ -56,10 +56,10 @@ posiadając obiekt writer, możemy go wykorzystać do operacji zapisu:
 pandas posiada gotową metodę do odczytu plików csv, wystarczy w jej parametrze podać plik, a stworzony zostanie za jego pomocą dataframe <br>
 df = pandas.read_csv('hrdata.csv')
 oczywiście metoda read_csv posiada również opcjonalne parametry: <br>
-index_col = podajemy w nim nazwę kolumny, która bedzie indexowana, na podstawie której grupowane bedą rekordy
-parse_dates = podjemy w nim nazwę kolumny, w której chcemy żeby pola były parsowane na daty
-header = nagłówek
-names = tablica z nazwami kolumn
+index_col = podajemy w nim nazwę kolumny, która bedzie indexowana, na podstawie której grupowane bedą rekordy <br>
+parse_dates = podjemy w nim nazwę kolumny, w której chcemy żeby pola były parsowane na daty <br>
+header = nagłówek <br>
+names = tablica z nazwami kolumn <br>
 ## zapis za pomocą pandas
 df.to_csv('hrdata_modified.csv') <br>
 metoda pozwalająca na sparsfowanie dataframe do csv i zapisanie go
